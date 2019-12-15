@@ -14,9 +14,13 @@ To Start Server:
 
 `npm start`  
 
-To Visit App:
+To Visit App via localhost:
 
-`localhost:3000`  
+`localhost:3000` 
+
+To Visit Deployed App :
+
+`https://test5473.github.io/symphony-project/`
 
 ## Information
 
@@ -25,3 +29,9 @@ To Visit App:
   - The user then uploads a .json file using the Drag & Drag option (react-dropzone) and the details are displayed to the table using the pivot feature.
   - Currently the pivot is applied to first three columns.
   - The application reads only .json files containing array of objects.
+
+## Note
+
+  - On facing issues for Google SignIn in Google Chrome please follow the following steps and refresh the app.
+  
+  `In Chrome: Settings → Advanced → Clear browsing data → Cached images and files`
