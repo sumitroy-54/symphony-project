@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc172ccf3c8dbb2608bb975e36947b3d",
+    "revision": "22d569d779894c7a53993b3ec936fb58",
     "url": "/symphony-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/symphony-project/static/css/2.11f871ab.chunk.css"
   },
   {
-    "revision": "3a9b404415c93dc2f3c3",
+    "revision": "500653fb0ad83df362dd",
     "url": "/symphony-project/static/css/main.b900d709.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/symphony-project/static/js/2.8ea10143.chunk.js.LICENSE"
   },
   {
-    "revision": "3a9b404415c93dc2f3c3",
-    "url": "/symphony-project/static/js/main.b5b16c6c.chunk.js"
+    "revision": "500653fb0ad83df362dd",
+    "url": "/symphony-project/static/js/main.31cf28fa.chunk.js"
   },
   {
     "revision": "2fd5d8f58487e645bc40",
