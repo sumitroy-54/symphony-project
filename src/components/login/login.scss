@@ -1,0 +1,54 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+      @media only screen and (max-width: 37.5em) {
+        @content;
+      } //600px
+    }
+
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) {
+          @content;
+        } //900px
+      }
+
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) {
+          @content;
+        } //1200px
+      }
+  }
+
+
+.login{
+    padding: 1.5rem;
+    background-image: linear-gradient(to right, #cc2b5e, #753a88);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    height: 20rem;
+    width: 80rem;
+    margin-top: 30rem;
+    margin-left: 38rem;
+
+    @include respond(phone) {
+        font-size: 1.8rem;
+        font-weight: 400;
+        height: 15rem;
+        width: 106%;
+        margin-top: 25rem;
+        margin-left: -3rem;
+    }
+
+    .google-login{
+        margin-top: 3rem;
+        padding: 1.5rem;
+        width: 12rem;
+
+        @include respond(phone) {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            width: 13rem;
+        }
+    }
+}
