@@ -19,8 +19,9 @@ class Login extends Component {
         })
     }
 
-    authFailed = () =>{
-        alert("Something went wrong, Please try Agian!!")
+    authFailed = (response) =>{
+        alert("Something went wrong, Please try Agian!!");
+        console.log(response);
     }
     render() {
         return (
